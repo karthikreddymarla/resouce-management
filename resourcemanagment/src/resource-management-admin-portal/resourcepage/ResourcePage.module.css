@@ -20,9 +20,6 @@
     text-align: left;
     margin-bottom: 45px;
 }
-.resource_details_container{
-    
-}
 .title_category_container{
     padding-top: 0px;
     padding-left: 10px;
@@ -52,13 +49,18 @@
     display: flex;
     justify-content: right;
 }
-/*.button{*/
-/*    margin-right:15px;*/
-/*    background-color: lightgray;*/
-/*    color: white;*/
-/*    border:none;*/
-/*    padding:10px*/
-/*}*/
-/*.button_container{*/
-/*    text-align: left;*/
-/*}*/
+
+.add_button{
+   margin-right:15px;
+  background-color: lightgreen;
+   color: white;
+   border:none;
+   padding:10px
+}
+.delete_button{
+    margin-right:15px;
+   background-color: lightgrey;
+    color: white;
+    border:none;
+    padding:10px
+ }
