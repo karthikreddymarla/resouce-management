@@ -1,0 +1,37 @@
+.input_container{
+    display: flex;
+    flex-direction: column;
+}
+.items_container{
+    
+    height: 100%;
+    text-align: center;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+.title_container{
+    text-align: center;
+}
+.button_container{
+    text-align: center;
+}
+.image_background{
+    width: 50%;
+    height: 90vh;
+    
+    background-image: url("https://images.unsplash.com/photo-1656267123457-3afa4a536665?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80");
+    background-size: cover;
+}
+.resource_item_container{
+    width: 50%;
+    
+    
+    
+
+}
+.add_resource_item_container{
+
+    display: flex;
+    justify-content: space-around;
+
+}

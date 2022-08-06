@@ -1,0 +1,37 @@
+.tab_container{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.card_container{
+    margin: 0 auto;
+    width: 75%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    cursor: pointer;
+}
+
+.tabs{
+    padding-top:7px;
+    padding-left: 35px;
+    padding-right: 35px;
+    padding-bottom:7px;
+    background-color: #0B69FF;
+    border:1px solid #D7DFE9;
+    background: rgba(215, 223, 233, 0.24);
+}
+.search_bar_container{
+    margin-bottom: 20px;
+    margin-left: 12.5%;
+    
+}
+.input_element{
+    Width:648px;
+    Height:40px;
+}
+.main{
+    background-color:  #F5F5F5;;
+}

@@ -1,0 +1,41 @@
+.card_container{
+    width: 30%;
+}
+.card_container{
+    width:360px;
+    height: 190px;
+    border: 1px solid #D7DFE9;
+    border-radius: 4px;
+    margin-bottom: 32px;
+    background-color: #ffffff;
+}
+.icon_container{
+    margin-left: 24px;
+    margin-top: 24px;
+    border: 2px solid #D7DFE9;
+    border-radius: 4px;
+    padding:8px
+
+}
+.icon{
+    Width:24px;
+    Height: 20.39px;
+    
+}
+
+.title_category_container{
+    width:50%;
+    height: 30px;
+    padding:10px;
+    
+}
+.icon_title_container{
+    display: flex;
+   margin-bottom: 30px;
+}
+.link_container{
+    text-align: left;
+}
+.description_container{
+    text-align: left;
+}
