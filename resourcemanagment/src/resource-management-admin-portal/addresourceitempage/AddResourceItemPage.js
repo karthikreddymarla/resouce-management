@@ -14,7 +14,7 @@ const AddResourceItemPage = () => {
               navigate(-1);
             }}
           >
-            Users
+            {"< "}Users
           </p>
         </div>
         <div className={styles.items_container}>
