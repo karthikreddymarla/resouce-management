@@ -48,6 +48,10 @@
 .inputSearchBar{
     width:600px
 }
+.table_button_container{
+    display: flex;
+    justify-content: right;
+}
 /*.button{*/
 /*    margin-right:15px;*/
 /*    background-color: lightgray;*/

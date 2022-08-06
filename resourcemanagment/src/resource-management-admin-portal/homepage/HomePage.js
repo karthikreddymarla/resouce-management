@@ -14,6 +14,9 @@ const HomePage = () => {
   const [search, setSearch] = useState("");
 
   const navigate = useNavigate();
+  {
+    /*we are using it for routing purpose*/
+  }
 
   const fetchData = async () => {
     const data = await fetch(

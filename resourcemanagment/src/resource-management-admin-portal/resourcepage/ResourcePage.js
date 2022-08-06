@@ -2,7 +2,7 @@ import React, { useState, useEffect, useMemo } from "react";
 
 import styles from "./ResourcePage.module.css";
 
-import { useTable, usePagination } from "react-table";
+import { useTable } from "react-table";
 import { useParams, useNavigate, Link } from "react-router-dom";
 
 const ResourcePage = () => {
@@ -41,13 +41,11 @@ const ResourcePage = () => {
   };
 
   const data = useMemo(() => {
-    console.log(resourceItems.resource_items);
     let tempPage = Math.max(0, page);
     tempPage = Math.min(page, 90 / 6);
     return resourceItems?.resource_items
       ? resourceItems.resource_items
           .sort((a, b) => {
-            // console.log(sortOrder);
             if (selectedOption === "Ascending")
               return a.title > b.title ? 1 : -1;
             else if (selectedOption === "Descending")
@@ -63,11 +61,6 @@ const ResourcePage = () => {
       fetchData();
     }
   }, []);
-
-  // const data = useMemo(() => {
-  //   console.log("resourceItems", resourceItems);
-  //   return resourceItems?.resource_items;
-  // });
 
   useEffect(() => {
     setAway(resourceItems?.resource_items);
@@ -95,12 +88,6 @@ const ResourcePage = () => {
 
   const { getTableProps, getTableBodyProps, headerGroups, rows, prepareRow } =
     tableInstance;
-
-  // let temp = []
-  // for (let i = 0; i < resourceItems; i += 6) {
-  //     temp.push(<button onClick={() => {setCurrent(i + 1)}}>i + 1</button>)
-  // }
-  // let pages = temp;
 
   return (
     <div className={styles.resource_container}>
@@ -194,7 +181,7 @@ const ResourcePage = () => {
           </tbody>
         </table>
       </div>
-      <div>
+      <div className={styles.table_button_container}>
         {/*{pages}*/}
         <button
           onClick={() => {
