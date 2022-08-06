@@ -117,7 +117,7 @@ const ResourcePage = () => {
         </div>
       </div>
       <div className={styles.update_button_container}>
-        <a href="#">Update</a>
+        <button className={styles.update_button}>Update</button>
       </div>
       <div className={styles.items_container}>
         <p>Items</p>
@@ -182,7 +182,6 @@ const ResourcePage = () => {
         </table>
       </div>
       <div className={styles.table_button_container}>
-        {/*{pages}*/}
         <button
           onClick={() => {
             setPage(page - 1);
